@@ -164,7 +164,7 @@ Develop a security mindset that anticipates adversarial exploits in software arc
 The repository is organized to make the portfolio easy to navigate.
 
 ```text
-CS499-Portfolio/
+CS499_ePortfolio/
 │
 ├── index.html
 ├── about.html
