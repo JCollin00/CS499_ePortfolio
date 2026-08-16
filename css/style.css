@@ -703,3 +703,42 @@ h3 {
     padding: 10px 18px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
 }
+
+
+
+
+
+/* =========================================
+   FIX CONTRAST & READABILITY (Listes & Textes)
+========================================= */
+
+/* Améliore le contraste du texte des puces */
+.skill-list li {
+    color: #334155 !important; /* Gris foncé lisible */
+    font-size: 0.98rem;
+    line-height: 1.6;
+}
+
+/* Accentue la couleur des titres en gras dans les listes */
+.skill-list li strong {
+    color: #0f172a !important; /* Bleu/Gris nuit très sombre */
+    font-weight: 700;
+}
+
+/* Lisibilité des sous-listes (rotations LL, RR, LR, RL) */
+.skill-list ul li {
+    color: #475569 !important;
+    margin-top: 6px;
+}
+
+/* Optimisation visuelle du bloc de métriques */
+.stats-section .stats strong {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: #2563eb;
+}
+
+.stats-section .stats span {
+    color: #475569;
+    font-weight: 600;
+}

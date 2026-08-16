@@ -1,72 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description"
-          content="Computer Science professional portfolio of Jean Lukenson Collin">
 
-    <title>Jean Lukenson Collin | Computer Science Portfolio</title>
+
+    <title> Algorithms & Data Structures | Computer Science Portfolio</title>
 
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-<header class="header">
+    <header class="header">
 
-    <nav class="navbar">
+        <nav class="navbar">
 
-        <a href="index.html" class="logo">
-            JL<span>C</span>
-        </a>
+            <a href="index.html" class="logo">
+                JL<span>C</span>
+            </a>
 
-        <ul class="nav-links">
-            <li><a href="index.html" class="active">Home</a></li>
-            <li><a href="about.html">About Me</a></li>
-            <li><a href="self-assessment.html">Self-Assessment</a></li>
-            <li><a href="code-review.html">Code Review</a></li>
-            <li><a href="software-design.html">Software Design</a></li>
-            <li><a href="algorithms.html">Algorithms</a></li>
-            <li><a href="databases.html">Databases</a></li>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="self-assessment.html">Self-Assessment</a></li>
+                <li><a href="code-review.html">Code Review</a></li>
+                <li><a href="software-design.html">Software Design</a></li>
+                <li><a href="algorithms.html">Algorithms</a></li>
+                <li><a href="databases.html">Databases</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <main class="content-section">
+
+        <!-- OVERVIEW CARD -->
+        <div class="card" style="margin-bottom: 40px;">
+            <div class="card-number">ARTIFACT OVERVIEW</div>
+            <h3>ABCU Course Planner Application</h3>
+            <p>
+                Originally developed in C++ for CS 300, this application parses course data from CSV files and displays
+                sorted course catalogs for academic advisors.
+            </p>
+            <p>
+                <strong>The Optimization:</strong> Replaced the original Binary Search Tree (BST) with a self-balancing
+                <strong>AVL Tree</strong> to eliminate worst-case performance risks and guarantee logarithmic execution
+                times.
+            </p>
+        </div>
+
+        <!-- KEY ENHANCEMENTS -->
+        <h2>Key Technical Enhancements</h2>
+        <p>
+            While the original BST performed well with unsorted input, loading sorted course data caused the tree to
+            degrade into a linear structure, increasing search and insertion times from <strong>O(log n)</strong> to
+            <strong>O(n)</strong>.
+        </p>
+
+        <ul class="skill-list" style="margin-bottom: 35px;">
+            <li>
+                <strong>Guaranteed O(log n) Complexity:</strong> Enforced strict tree balancing after every insertion to
+                prevent performance degradation.
+            </li>
+            <li>
+                <strong>Automated Balancing Rotations:</strong> Implemented all four AVL rotation algorithms:
+                <ul>
+                    <li><strong>LL & RR Rotations:</strong> Single rotations for left-heavy or right-heavy subtrees.
+                    </li>
+                    <li><strong>LR & RL Rotations:</strong> Double rotations for complex inner-child imbalances.</li>
+                </ul>
+            </li>
+            <li>
+                <strong>Preserved In-Order Traversal:</strong> Retained <strong>O(n)</strong> sorted output capabilities
+                without needing separate sorting algorithms, balancing search efficiency with ordered display.
+            </li>
         </ul>
 
-    </nav>
+        <!-- STATS / METRICS COMPARISON -->
+        <div class="stats-section" style="border-radius: 12px; margin-bottom: 45px;">
+            <div class="stats">
+                <div>
+                    <strong>O(log n)</strong>
+                    <span>Guaranteed Search Time</span>
+                </div>
+                <div>
+                    <strong>4 Cases</strong>
+                    <span>AVL Rotations (LL, RR, LR, RL)</span>
+                </div>
+                <div>
+                    <strong>100%</strong>
+                    <span>Core Features Preserved</span>
+                </div>
+            </div>
+        </div>
 
-</header>
+        <!-- JUSTIFICATION & OUTCOMES -->
+        <h2>Program Outcome Coverage</h2>
+        <p>
+            This enhancement directly addresses the Computer Science outcome of <em>designing and evaluating computing
+                solutions using algorithmic principles</em>. Key skills demonstrated include:
+        </p>
 
-<main>
+        <ul class="skill-list" style="margin-bottom: 35px;">
+            <li>Analyzing runtime efficiency and identifying performance bottlenecks in legacy code.</li>
+            <li>Implementing recursive tree algorithms and balance factor maintenance in C++.</li>
+            <li>Evaluating algorithmic trade-offs (e.g., comparing AVL Trees vs. Hash Tables for sorted data display).
+            </li>
+        </ul>
+
+        <!-- REFLECTION -->
+        <h2>Reflection</h2>
+        <p>
+            Upgrading this project highlighted the difference between software that simply works and software engineered
+            for scalability. Balancing the tree while keeping CSV parsing and search features fully intact presented a
+            strong engineering challenge, reinforcing the importance of algorithmic analysis in modern software
+            development.
+        </p>
+
+        <!-- CTA / GITLAB LINK -->
+        <div style="margin-top: 45px; text-align: center;">
+            <a href="https://github.com/JCollin00/CS499_ePortfolio/tree/master/artifacts/algorithms" target="_blank"
+                rel="noopener noreferrer" class="btn btn-primary">
+                View Source Code on GitLab &rarr;
+            </a>
+        </div>
+
+    </main>
 
 
 
 
 
-</main>
 
 
-<footer class="footer">
+    <footer class="footer">
 
-    <div>
-        <h3>Jean Lukenson Collin</h3>
-        <p>Computer Science Professional Portfolio</p>
-    </div>
+        <div>
+            <h3>Jean Lukenson Collin</h3>
+            <p>Computer Science Professional Portfolio</p>
+        </div>
 
-    <div class="footer-links">
-        <a href="index.html">Home</a>
-        <a href="about.html">About Me</a>
-        <a href="self-assessment.html">Self-Assessment</a>
-        <a href="code-review.html">Code Review</a>
-    </div>
-    
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Me</a>
+            <a href="self-assessment.html">Self-Assessment</a>
+            <a href="code-review.html">Code Review</a>
+        </div>
 
 
-<p class="copyright">
-© 2026 Jean Lukenson Collin
-</p>
 
-</footer>
+        <p class="copyright">
+            © 2026 Jean Lukenson Collin
+        </p>
+
+    </footer>
 
 </body>
-</html>
 
+</html>
