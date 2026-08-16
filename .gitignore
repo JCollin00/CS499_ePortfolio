@@ -9,3 +9,22 @@ npm-debug.log
 # Operating system files
 .DS_Store
 Thumbs.db
+
+# Visual Studio
+.vs/
+*.ipch
+*.suo
+*.db
+*.exe
+*.ilk
+*.pdb
+*.tlog/
+Debug/
+x64/
+Release/
+*.vcxproj.user
+*.recipe
+*.log
+*.obj
+*.idb
+.vsidx
