@@ -28,3 +28,19 @@ Release/
 *.obj
 *.idb
 .vsidx
+
+# IDEs et éditeurs de texte
+**/.idea/
+**/.settings/
+**/.codio
+**/.guides/
+
+# Python et Jupyter Notebook
+**/__pycache__/
+**/*.pyc
+**/.ipynb_checkpoints/
+
+# Fichiers de données et temporaires
+**/datasets/
+**/untitled*
+
