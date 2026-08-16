@@ -36,14 +36,105 @@
 
     </header>
 
-    <main>
+    <!-- MAIN CONTENT CONTAINER -->
+    <main class="content-section">
 
+        <!-- HERO / ARTIFACT OVERVIEW BANNER -->
+        <div class="card artifact-banner">
+            <span class="badge">ARTIFACT OVERVIEW</span>
+            <h1>Animal Shelter Dashboard</h1>
+            <p class="subtitle">Python • MongoDB • PyMongo • Dash • Plotly</p>
+            <p>
+                Interactive shelter management tool originally built in CS 340 to query, visualize, and map animal
+                rescue data.
+            </p>
+            <div class="highlight-box">
+                <strong>Core Refactoring Goal:</strong> Upgrade the PyMongo CRUD layer with dynamic environment
+                configurations, strict input validation, defensive exception handling, and safe visualization pipeline
+                rendering.
+            </div>
+        </div>
 
+        <!-- METRICS ROW (BADGES DYNAMIQUES) -->
+        <div class="metrics-grid">
+            <div class="metric-card">
+                <span class="metric-value">100%</span>
+                <span class="metric-label">Input Validation</span>
+            </div>
+            <div class="metric-card accent">
+                <span class="metric-value">PyMongo</span>
+                <span class="metric-label">Exception Handling</span>
+            </div>
+            <div class="metric-card">
+                <span class="metric-value">CRUD</span>
+                <span class="metric-label">Secure MongoDB Ops</span>
+            </div>
+        </div>
 
+        <!-- BEFORE VS ENHANCED (COMPARAISON DYNAMIQUE) -->
+        <h2>Technical Refactoring Breakdown</h2>
+        <div class="comparison-grid">
+            <div class="comparison-box before">
+                <h3>Initial State (CS 340)</h3>
+                <ul>
+                    <li>Hard-coded database connection strings.</li>
+                    <li>Unvalidated query parameters passed directly to MongoDB.</li>
+                    <li>Generic exception catching leading to potential app crashes.</li>
+                    <li>Direct rendering of datasets without null/column checks.</li>
+                </ul>
+            </div>
+            <div class="comparison-box after">
+                <h3>Enhanced Architecture</h3>
+                <ul>
+                    <li><strong>Configurable Constructor:</strong> Environment-ready connection setup.</li>
+                    <li><strong>Defensive Validation:</strong> Parameter type & key verification raising explicit
+                        exceptions.</li>
+                    <li><strong>Robust Error Trapping:</strong> PyMongo-specific error capturing with clean fallbacks.
+                    </li>
+                    <li><strong>Safe Data Pipeline:</strong> Pre-render validation before updating Dash maps/charts.
+                    </li>
+                </ul>
+            </div>
+        </div>
 
+        <!-- PROGRAM OUTCOMES (CARTES COMPACTES) -->
+        <h2>Program Outcome Alignment</h2>
+        <div class="outcomes-grid">
+            <div class="outcome-card">
+                <span class="outcome-num">Outcome 2</span>
+                <h4>Technical Documentation</h4>
+                <p>Standardized Python docstrings, clean variable naming, and refactored module organization for
+                    long-term maintainability.</p>
+            </div>
+            <div class="outcome-card">
+                <span class="outcome-num">Outcome 4</span>
+                <h4>Database Technologies</h4>
+                <p>Applied advanced PyMongo data modeling, filtering strategies, and real-time dashboard data syncing.
+                </p>
+            </div>
+            <div class="outcome-card">
+                <span class="outcome-num">Outcome 5</span>
+                <h4>Security Mindset</h4>
+                <p>Enforced input sanitization, prevented schema leakage, and handled database failures gracefully.</p>
+            </div>
+        </div>
+
+        <!-- SHORT REFLECTION & CTA -->
+        <div class="card reflection-card">
+            <h3>Reflective Summary</h3>
+            <p>
+                Refactoring this artifact reinforced that production-grade database engineering requires proactive input
+                sanitization and graceful error handling over simple "happy-path" implementations.
+            </p>
+            <div class="cta-wrapper">
+                <a href="https://github.com/JCollin00/CS499_ePortfolio/tree/master/artifacts/algorithms" target="_blank"
+                    rel="noopener noreferrer" class="btn btn-primary">
+                    Explore Code on GitLab &rarr;
+                </a>
+            </div>
+        </div>
 
     </main>
-
 
     <footer class="footer">
 
