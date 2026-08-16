@@ -110,16 +110,12 @@ h3 {
     align-items: center;
 
     background:
-        radial-gradient(
-            circle at top right,
+        radial-gradient(circle at top right,
             rgba(37, 99, 235, 0.18),
-            transparent 35%
-        ),
-        linear-gradient(
-            135deg,
+            transparent 35%),
+        linear-gradient(135deg,
             #0f172a,
-            #172554
-        );
+            #172554);
 
     color: white;
 }
@@ -321,18 +317,16 @@ h3 {
 
 .page-hero {
     background:
-        linear-gradient(
-            135deg,
+        linear-gradient(135deg,
             #0f172a,
-            #172554
-        );
+            #172554);
 
     color: white;
 
     padding: 100px 25px;
 }
 
-.page-hero > * {
+.page-hero>* {
     max-width: 1100px;
     margin-left: auto;
     margin-right: auto;
@@ -407,8 +401,7 @@ h3 {
 
     padding: 8px 0;
 
-    border-bottom: 1px solid
-        rgba(255,255,255,0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 
@@ -422,7 +415,7 @@ h3 {
     background: white;
 }
 
-.light-section > * {
+.light-section>* {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
@@ -693,7 +686,8 @@ h3 {
     display: flex;
     justify-content: center;
     gap: 15px;
-    margin-top: -30px; /* Aligne les boutons juste sous l'espace de la vidéo */
+    margin-top: -30px;
+    /* Aligne les boutons juste sous l'espace de la vidéo */
     margin-bottom: 30px;
 }
 
@@ -714,14 +708,16 @@ h3 {
 
 /* Améliore le contraste du texte des puces */
 .skill-list li {
-    color: #334155 !important; /* Gris foncé lisible */
+    color: #334155 !important;
+    /* Gris foncé lisible */
     font-size: 0.98rem;
     line-height: 1.6;
 }
 
 /* Accentue la couleur des titres en gras dans les listes */
 .skill-list li strong {
-    color: #0f172a !important; /* Bleu/Gris nuit très sombre */
+    color: #0f172a !important;
+    /* Bleu/Gris nuit très sombre */
     font-weight: 700;
 }
 
