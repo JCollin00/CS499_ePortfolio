@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="ProjectTwoEnhance/ProjectTwoEnhance.vcxproj" Id="8cca5a4c-0a92-4827-a0d5-3e9bafe8e0c6" />
+</Solution>
