@@ -159,6 +159,14 @@ Develop a security mindset that anticipates adversarial exploits in software arc
 
 ---
 
+### Purpose
+
+This repository serves both as my CS 499 academic capstone submission and as a professional portfolio.
+
+My goal is to demonstrate not only what I have learned, but also how I can apply computer science concepts to analyze problems, design solutions, improve existing software, and communicate technical decisions professionally.
+
+---
+
 ## Repository Organization
 
 The repository is organized to make the portfolio easy to navigate.
