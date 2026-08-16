@@ -192,8 +192,8 @@ CS499_ePortfolio/
 │       └── enhanced/
 │
 ├── narratives/
-│   ├── software-engineering/
-│   ├── algorithms/
-│   └── databases/
+│   ├── Software_Engineering_Narrative.docx
+│   ├── Algorithms_Narrative.docx
+│   └── Databases_Narrative.docx
 │
 └── README.md
