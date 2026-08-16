@@ -1,3 +1,11 @@
 node_modules/
 npm-debug.log
 .env
+# Large video files
+*.mp4
+*.mov
+*.avi
+
+# Operating system files
+.DS_Store
+Thumbs.db
