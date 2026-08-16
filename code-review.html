@@ -24,13 +24,13 @@
 
 <ul class="nav-links">
 
-<li><a href="index.html">Home</a></li>
-<li><a href="about.html" class="active">About Me</a></li>
-<li><a href="assessment.html">Self-Assessment</a></li>
-<li><a href="code-review.html">Code Review</a></li>
-<li><a href="software-design.html">Software Design</a></li>
-<li><a href="algorithms.html">Algorithms</a></li>
-<li><a href="databases.html">Databases</a></li>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="self-assessment.html">Self-Assessment</a></li>
+            <li><a href="code-review.html">Code Review</a></li>
+            <li><a href="software-design.html">Software Design</a></li>
+            <li><a href="algorithms.html">Algorithms</a></li>
+            <li><a href="databases.html">Databases</a></li>
 
 </ul>
 
@@ -45,33 +45,24 @@
     <p>This video highlights the original design constraints and the implemented software engineering enhancements.</p>
     
     <!-- Video Player pointing to your local folder -->
-    <div class="video-container">
-        <video controls>
-            <source src="Code_Review/2 Milestone One Code Review.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-    </div>
+        <div class="hero-buttons">
+
+            <!-- REMPLACEZ 'VOTRE_ID_VIDEO' PAR L'ID RÉEL DE VOTRE VIDÉO YOUTUBE -->
+            <a href="https://www.youtube.com/watch?v=WBlsr9pxBr4" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                Watch Code Review on YouTube
+            </a>
+
+             <a href="https://github.com/JCollin00" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+                View Repository
+            </a>
+
+        </div>
 </section>
 
-            <div class="video-controls-buttons">
-                <button onclick="rewindVideo()" class="btn btn-secondary">⏪ Rewind 10s</button>
-                <button onclick="forwardVideo()" class="btn btn-secondary">Fast Forward 10s ⏩</button>
-            </div>
+     
 
 </main>
 
-    <script>
-    const video = document.getElementById('myVideo');
-    
-    function rewindVideo() {
-            video.currentTime = Math.max(0, video.currentTime - 10);
-        }
-
-        // 3. Fonction pour avancer de 10 secondes
-        function forwardVideo() {
-            video.currentTime = Math.min(video.duration, video.currentTime + 10);
-        }
-    </script>
 
 
 <footer class="footer">
